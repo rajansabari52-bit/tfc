@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/rajansabari52-bit/pumo.git'
+                url: 'https://github.com/rajansabari52-bit/tfc.git'
             }
         }
 
